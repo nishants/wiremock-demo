@@ -1,7 +1,10 @@
 {
   "request": {
-    "method": "GET",
-    "url": "/from-maya"
+    "method": "POST",
+    "url": "/from",
+     "bodyPatterns" : [ {
+      "matchesXPath" : "/request/sender[text() ='maya']"
+    } ]
   },
   "response": {
     "status": 200,

@@ -1,7 +1,10 @@
 {
   "request": {
-    "method": "GET",
-    "url": "/from-sanam"
+    "method": "POST",
+    "url": "/from",
+     "bodyPatterns" : [ {
+    	"matchesXPath" : "/request/sender[text() ='sanam']"
+    } ]
   },
   "response": {
     "status": 200,
