@@ -3,7 +3,7 @@
     "method": "POST",
     "url": "/from",
      "bodyPatterns" : [ {
-      "matchesXPath" : "/request/sender[text() ='maya']"
+      "matchesXPath" : "//request/sender[text() ='maya']"
     } ]
   },
   "response": {
