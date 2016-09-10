@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/from-sanam"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "from-sanam.xml"
+  }
+}
